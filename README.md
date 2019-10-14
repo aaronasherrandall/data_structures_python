@@ -19,7 +19,7 @@ A good example is how Facebook uses data structures. More than 1 billion custome
 
 - Priority queue approach makes sure the running time will be far better **O(N<sup>*</sup>logN)**
 
-*If we have a large dataset, i.e. n = huge number, it becomes more important to use **O(N<sup>*</sup>logN)** algorithm instead of **O(N<sup>2</sup>)**
+*If we have a large dataset, i.e. n = huge number, it becomes more important to use ***O(N<sup>*</sup>logN)*** algorithm instead of **O(N<sup>2</sup>)**
 
 ## Spanning Trees
 
