@@ -44,6 +44,15 @@ A good example is how Facebook uses data structures. More than 1 billion custome
   - The aim is to be able to store and retrieve data in an efficient manner
   - What we want: to be able to insert / find items in **O(1)** time complexity and to be able to retrieve items in **O(1)** as well
   - Example: arrays, linked lists, binary trees etc.
+  
+| Abstract Data Types  | Data Sctructures |
+| ------------- | ------------- |
+| Stack  | array, linked list  |
+| Queue  | array, linked list  |
+| Priority Queue  | heap  |
+| Dictionary / hashmap | array  |
+
+ADT and DS are not independant from each other. ADT are the specifications, and ever ADT has an underlying DS that will impliment the behavior specified by the ADT.
 
 
 
