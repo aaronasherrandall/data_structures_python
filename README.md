@@ -30,10 +30,20 @@ A good example is how Facebook uses data structures. More than 1 billion custome
 # Abstract Data Type
 
 - This is the model ( logical description ) for a certain data structure
-  - Similar to a subtype in programming:
+  - Similar to a supertype in programming ( so an interface in Java) 
     -  *Subtyping (also subtype polymorphism or inclusion polymorphism) is a form of type polymorphism in which a subtype is a datatype that is related to another datatype (the supertype) by some notion of substitutability, meaning that program elements, typically subroutines or functions, written to operate on elements of the supertype can also operate on elements of the subtype*
     - *If S is a subtype of T, the subtyping relation is often written S <: T, to mean that any term of type S can be safely used in a context where a term of type T is expected* (https://en.wikipedia.org/wiki/Subtyping)
-- 
+- We define what methods / functions the data structure will have - we dfefine the basic behavior
+- IMPORTANT: it is just the model. The ADT (Abstract Data Type) does not specify the concrete implementation or the programming language
+- "This is what the user knows"
+- Example: **stack → push() pop() peek()**
+  - ADT will *define* these behaviors
+  
+  # Data Structures
+  - The concrete implemntation, the actual representation of the data
+  - The aim is to be able to store and retrieve data in an efficient manner
+  - What we want: to be able to insert / find items in **O(1)** time complexity and to be able to retrieve items in **O(1)** as well
+  - Example: arrays, linked lists, binary trees etc.
 
 
 
