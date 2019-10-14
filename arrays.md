@@ -30,3 +30,31 @@ Can prove to be very important in mathematical related computations ( matrices )
 
 ![Screenshot](multideminsional%20arrays.png)
 
+numbers [][] two deminsional array
+
+First parameter: row index
+Second parameter: column index
+
+## More on Arrays
+
+- Arrays are data structures used to store items of the same type
+- We use indicies as keys
+- Arrays can have as many deminsions as we want: one or two dimensional arrays are quite popular
+- Example: storing a matrix → two dimensional array
+- Dynamic array: when the size of an array is changing dynamicallly
+- Applications: **lookup tables / hashtables, heaps**
+
+## Advantages
+- We can use random access because of the keys: 
+```
+getitem(int index)
+```
+This will return the value with the given key very fast: **O(1)**
+- Very easy to impliment and to use
+- Very fast data structure
+- We should use arrays in applications when we want to add items over and over again and we want to take items with given indecies - this will be fast!
+
+
+
+
+
