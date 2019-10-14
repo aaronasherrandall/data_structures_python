@@ -28,5 +28,5 @@ numbers[4] = -45
 
 Can prove to be very important in mathematical related computations ( matrices ):
 
-![Screenshot](screenshot.png)
+![Screenshot](multideminsional%20arrays.png)
 
