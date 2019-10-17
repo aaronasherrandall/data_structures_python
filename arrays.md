@@ -93,5 +93,7 @@ Insert items at a given index: **O(N)** (linear time complexity due to having th
 Removing the last item: **O(1)** (constant time complexity - very fast operation)
 Removing f.e. middle item: **O(N)** (linear time complexity due to having the shift other items)
 
+Conclusion: if all we need to do is insert/remove items at the end of the list, this data structure is comparatively fast **O(1)**.
+
 
 
