@@ -65,4 +65,5 @@ This will return the value with the given key very fast: **O(1)**
 **Add**
 We can keep adding values to the array as long as the array is not full
 
+![Screenshot](add_operation.png)
 
