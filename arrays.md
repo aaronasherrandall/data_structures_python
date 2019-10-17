@@ -69,3 +69,10 @@ We can keep adding values to the array as long as the array is not full
 
 If we insert items at the end of the array, speed is very fast
 
+**insert(23, 1)**
+
+With the above, we must move the values from 1 to 2 and so on. 
+
+![Screenshot](complexity.png)
+
+This gives us linear time complexity - we have to move n number of items on an array in order to make space from the item we want to insert.
