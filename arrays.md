@@ -60,6 +60,9 @@ This will return the value with the given key very fast: **O(1)**
 - If it is full: we have to create a bigger array and thne copy the values one-by-one // reconstructing an array is an **O(N)** operation
 - It is not able to store items with different types
 
+## Operations
 
+**Add**
+We can keep adding values to the array as long as the array is not full
 
 
