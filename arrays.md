@@ -67,3 +67,5 @@ We can keep adding values to the array as long as the array is not full
 
 ![Screenshot](add_operation.png)
 
+If we insert items at the end of the array, speed is very fast
+
