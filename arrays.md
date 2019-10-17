@@ -76,3 +76,22 @@ With the above, we must move the values from 1 to 2 and so on.
 ![Screenshot](complexity.png)
 
 This gives us linear time complexity - we have to move n number of items on an array in order to make space from the item we want to insert.
+
+For example, if we have to move 10,000 items and we are dealing with linear time complexity, the speed will be negatively affected.
+
+##  Insert
+
+Add a new item at the end of the list: **O(1)** (constant time complexity - very fast operation)
+Insert items at a given index: **O(N)** (linear time complexity due to having the shift other items)
+
+## Remove
+
+**removeLast();** removes last item - **O(1)** constant time complexity
+
+**remove(1);** remove value with a given index; items must shift - **O(N)** linear time complexity
+
+Removing the last item: **O(1)** (constant time complexity - very fast operation)
+Removing f.e. middle item: **O(N)** (linear time complexity due to having the shift other items)
+
+
+
