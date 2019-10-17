@@ -54,6 +54,11 @@ This will return the value with the given key very fast: **O(1)**
 - Very fast data structure
 - We should use arrays in applications when we want to add items over and over again and we want to take items with given indecies - this will be fast!
 
+## Disadvantages
+
+- We have to know the size of the array at compile-time: so it is not such a dynamic data structure
+- If it is full: we have to create a bigger array and thne copy the values one-by-one // reconstructing an array is an **O(N)** operation
+- It is not able to store items with different types
 
 
 
