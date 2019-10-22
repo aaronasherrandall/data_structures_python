@@ -1,4 +1,4 @@
-# Arrays: Python Implimentation
+# Arrays: Python Implementation
 
 Python does not have a native array data sctucture.
 However, it does have the **list**, which is much more general and can be used as a multidimensional array.
