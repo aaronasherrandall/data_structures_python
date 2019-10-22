@@ -48,3 +48,14 @@ so we can use indecies: getitem(int index)
 - Nodes in a linked list must be read in order from the beginning as linked list have sequential access ( array items can be reached via indexes **O(1)** time complexity
 - Difficulties arise in linked lists when it comes to reverse traversing. Singly linked lists are extremely difficult to navigate backwards.
 - Soulution: doubly linked lists -> easier to read, but memory is wasted in allocating space for a back pointer.
+
+# Operations
+
+## insertion
+
+Inserting items at the beginning of the linked list: very simple, we just have to update the references -> **O(1)** time complexity
+
+```
+linkedList.insertAtStart(-5);
+```
+
