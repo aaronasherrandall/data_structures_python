@@ -11,6 +11,11 @@ The last node in a linked list always points to a null:
 
 A single node:
 
+ | Data | 
+| ------------- | 
+| Reference  |
+
+
 - contains data -> integer, double or custom object
 - contains a reference pointing to the next node in the linked list
 
@@ -23,8 +28,5 @@ class Node {
   ...
  }
  ```
- | Data | 
-| ------------- | 
-| Reference  |
 
  
