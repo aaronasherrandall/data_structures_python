@@ -82,6 +82,7 @@ For example, if we have to move 10,000 items and we are dealing with linear time
 ##  Insert
 
 Add a new item at the end of the list: **O(1)** (constant time complexity - very fast operation)
+
 Insert items at a given index: **O(N)** (linear time complexity due to having the shift other items)
 
 ## Remove
