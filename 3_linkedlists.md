@@ -61,3 +61,19 @@ linkedList.insertAtStart(-5);
 
 ![Screenshot](array_insertion.png)
 
+- This operation is very fast! This is why we like linked list
+- For arrays, this operation would be **O(N)** -> linear time complexity
+
+**Recap**
+- We like arrays because of the random access; we can insert items at the end of the list very fast **O(1)** time complexity
+- We like linked lists because we can insert items very fast at the beginning **O(1)** time complexity
+
+Inserting items at the end of linked list: not simple; we have to traverse the whole linked list to find the last node.
+
+How do we find the last node? **We know the last node is pointing to a null.**
+
+Also, we have to update the references when we get there: **O(N)** time complexity.
+
+
+
+
