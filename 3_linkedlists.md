@@ -74,6 +74,14 @@ How do we find the last node? **We know the last node is pointing to a null.**
 
 Also, we have to update the references when we get there: **O(N)** time complexity.
 
+## Insertion: continued
+
+```
+linkedList.insertAtEnd(25):
+```
+![Screenshot](array_insertion_last_node.png)
+
+
 
 
 
