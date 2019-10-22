@@ -59,3 +59,5 @@ Inserting items at the beginning of the linked list: very simple, we just have t
 linkedList.insertAtStart(-5);
 ```
 
+![Screenshot](array_insertion.png)
+
