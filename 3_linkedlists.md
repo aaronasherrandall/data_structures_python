@@ -5,3 +5,4 @@ Linked Lists are composed of nodes and references / pointers which point from on
 
 The last node in a linked list always points to a null:
 
+![Screenshot](linked_lists.png)
