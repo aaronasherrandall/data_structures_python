@@ -99,7 +99,7 @@ linkedList.removeStart()
 This is fast as simple as we just remove the root node.
 
 
-### If we want to remove an item at a given index:
+#### If we want to remove an item at a given index:
 
 ```
 linkedList.remove(10)
