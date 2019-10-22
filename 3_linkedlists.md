@@ -81,6 +81,37 @@ linkedList.insertAtEnd(25):
 ```
 ![Screenshot](array_insertion_last_node.png)
 
+Finally, at 10, we are pointing to a null, so we can insert 25 after 10:
+
+Updating the references takes **O(1)** time complexity. **But**, we have to traverse the list itself which takes **O(N) // **O(N) + O(1) = O(N)**
+
+**Insert for Linked List:**
+Insert at the beginning **O(1)**
+Insert at the end **O(N)**
+
+## Remove
+
+#### Let's say we want to remove the first item, or the root of the linked list:
+```
+linkedList.removeStart()
+```
+
+This is fast as simple as we just remove the root node.
+
+
+### If we want to remove an item at a given index:
+
+```
+linkedList.remove(10)
+```
+
+We can access the root node only, if we want to remove an item at a specific index, we must traverse the entire list until we find it:
+
+**O(N)** linear time complexity
+
+**Remove for Linked List:**
+Remove at the beginning **O(1)**
+Remove items at a given index **O(N)**
 
 
 
