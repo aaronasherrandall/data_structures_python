@@ -113,7 +113,7 @@ We can access the root node only, if we want to remove an item at a specific ind
 Remove at the beginning **O(1)**
 Remove items at a given index **O(N)**
 
-**Problems with linked lists**
+## Problems with linked lists
 
 ![Screenshot](problems_linked_lists.png)
 
