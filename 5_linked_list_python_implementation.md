@@ -1,4 +1,4 @@
-# Linked List implimentation from scracth
+# Linked List implementation from scracth
 
 To create nodes in python, we use ```class``` with object
 
