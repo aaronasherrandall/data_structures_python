@@ -33,8 +33,8 @@ A good example is how Facebook uses data structures. More than 1 billion custome
   - Similar to a supertype in programming ( so an interface in Java) 
     -  *Subtyping (also subtype polymorphism or inclusion polymorphism) is a form of type polymorphism in which a subtype is a datatype that is related to another datatype (the supertype) by some notion of substitutability, meaning that program elements, typically subroutines or functions, written to operate on elements of the supertype can also operate on elements of the subtype*
     - *If S is a subtype of T, the subtyping relation is often written S <: T, to mean that any term of type S can be safely used in a context where a term of type T is expected* (https://en.wikipedia.org/wiki/Subtyping)
-- We define what methods / functions the data structure will have - we dfefine the basic behavior
-- IMPORTANT: it is just the model. The ADT (Abstract Data Type) does not specify the concrete implementation or the programming language
+- We define what methods / functions the data structure will have - defining the basic behavior
+- IMPORTANT: it is just the model. The ADT (Abstract Data Type) does not specify the concrete implementation of the programming language
 - "This is what the user knows"
 - Example: **stack → push() pop() peek()**
   - ADT will *define* these behaviors
@@ -52,7 +52,7 @@ A good example is how Facebook uses data structures. More than 1 billion custome
 | Priority Queue  | heap  |
 | Dictionary / hashmap | array  |
 
-ADT and DS are not independant from each other. ADT are the specifications, and ever ADT has an underlying DS that will impliment the behavior specified by the ADT.
+ADT and DS are not independant from each other. ADT are the specifications, and every ADT has an underlying DS that will impliment the behavior specified by the ADT.
 
 
 
